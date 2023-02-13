@@ -1,3 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
 button {
     display: flex;
     color: rgb(255, 255, 255);
@@ -12,12 +37,6 @@ button {
     font-family: Arial;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 button, input {
     cursor: pointer;
 }
@@ -27,11 +46,9 @@ button, input {
     font-weight: bolder;
 }
 
-/* width: 100%;
-border: none;
-color: inherit;
-font-family: inherit;
-font-size: inherit;
-cursor: pointer;
-outline: none;
-} */
+.grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid black;
+}
