@@ -1,4 +1,17 @@
+@font-face {
+    src: url(fonts/space-age.ttf);
+    /* src: url(fonts/SUPERBOLT.ttf); */
+    font-family: Space; 
+}
+
+.title {
+    font-family: space;
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
+    font-family: Arial;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +25,11 @@ body {
     width: 400px;
     justify-content: space-around;
     margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.size {
+    font-size: 20px;
 }
 
 .footer {
@@ -34,7 +52,6 @@ button {
     width: 95px;
     justify-content: center;
     border: none;
-    font-family: Arial;
 }
 
 button, input {
