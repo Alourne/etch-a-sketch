@@ -63,7 +63,7 @@ button, input {
     font-weight: bolder;
 }
 
-.grid {
+.board {
     width: 500px;
     height: 500px;
     display: grid;
